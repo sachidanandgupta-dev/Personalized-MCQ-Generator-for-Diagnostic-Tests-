@@ -85,7 +85,7 @@ flowchart TB
     style AI fill:#fdf4ff,stroke:#a855f7
 ```
 
-### Request flow (quiz session)
+### Request flow.  (quiz session)
 
 1. User authenticates → receives JWT → stored in `localStorage`.
 2. User submits educational text → **FastAPI** reads adaptive difficulty from **MongoDB** → **Gemini** generates MCQs → questions saved to **MongoDB**.
